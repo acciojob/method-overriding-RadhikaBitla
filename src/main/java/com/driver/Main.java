@@ -1,12 +1,12 @@
 package com.driver;
-class A
+class a
 {
     public String meth()
     {
         return "Invoking method from class A";
     }
 }
-class B extends A
+class b extends a
 {
     public String meth()
     {
@@ -17,7 +17,7 @@ public class Main
 {
   public static void main(String[] args)
   {
-      B b=new B();
-      System.out.println(b.meth());
+      b bb=new b();
+      System.out.println(bb.meth());
   }
 }
